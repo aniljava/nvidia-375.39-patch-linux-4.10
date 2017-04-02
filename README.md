@@ -24,4 +24,4 @@ If in console, and can not copy above script, use following.
 
     wget goo.gl/3c7WU5 -o downloader
     chmod +x downloader
-    # Edit, Copy or Execute.
+    # Edit, Copy or Execute.d
