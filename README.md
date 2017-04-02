@@ -1,6 +1,11 @@
 # nvidia-375.39-patch-linux-4.10
 Patch and guide installing Nvidia 375.39 on Ubuntu 17.04 / 4.10 kernel, Ubuntu Zesty Zapus
 
+Script copied from : https://devtalk.nvidia.com/default/topic/995429/failed-installed-nvidia-with-kernel-4-10/
+Patch and script mirrored here in a case if source patch is removed.
+
+
+
 
 Following script is also available in `downloader`. 
 
