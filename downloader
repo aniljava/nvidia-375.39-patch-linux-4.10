@@ -7,7 +7,7 @@ sudo chmod +x ./NVIDIA-Linux-x86_64-375.39.run
 
 
 cd ./NVIDIA-Linux-x86_64-375.39
-wget https://pkgs.rpmfusion.org/cgit/nonfree/nvidia-kmod.git/plain/kernel_4.10.patch
+wget https://raw.githubusercontent.com/aniljava/nvidia-375.39-patch-linux-4.10/master/kernel_4.10.patch
 
 patch -p1 < kernel_4.10.patch
 
