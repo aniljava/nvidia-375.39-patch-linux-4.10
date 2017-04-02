@@ -5,6 +5,11 @@ Script copied from : https://devtalk.nvidia.com/default/topic/995429/failed-inst
 Patch and script mirrored here in a case if source patch is removed.
 
 
+If in console (using phone) ,and can not copy script below, use following
+
+    wget goo.gl/3c7WU5 -o downloader
+    chmod +x downloader
+    # Edit, Copy or Execute.
 
 
 Following script is also available in `downloader`. 
@@ -24,9 +29,3 @@ Following script is also available in `downloader`.
     ./NVIDIA-Linux-x86_64-375.39/nvidia-install
     
 
-
-If in console, and can not copy above script, use following.
-
-    wget goo.gl/3c7WU5 -o downloader
-    chmod +x downloader
-    # Edit, Copy or Execute.d
