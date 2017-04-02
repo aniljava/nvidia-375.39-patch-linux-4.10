@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+
+wget http://fr.download.nvidia.com/XFree86/Linux-x86_64/375.39/NVIDIA-Linux-x86_64-375.39.run
+sudo chmod +x ./NVIDIA-Linux-x86_64-375.39.run
+./NVIDIA-Linux-x86_64-375.39.run -x
+
+
+cd ./NVIDIA-Linux-x86_64-375.39
+wget https://pkgs.rpmfusion.org/cgit/nonfree/nvidia-kmod.git/plain/kernel_4.10.patch
+
+patch -p1 < kernel_4.10.patch
+
+cd ..
+./NVIDIA-Linux-x86_64-375.39/nvidia-install
