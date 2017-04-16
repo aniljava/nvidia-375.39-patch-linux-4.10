@@ -24,7 +24,7 @@ Following script is also available in `downloader`.
     
     patch -p1 < kernel_4.10.patch
     
-    ## Insure Xorg is not running
+    ## Ensure Xorg is not running
     cd ..
     ./NVIDIA-Linux-x86_64-375.39/nvidia-install
     
