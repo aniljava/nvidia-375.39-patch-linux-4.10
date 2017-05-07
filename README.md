@@ -26,6 +26,6 @@ Following script is also available in `downloader`.
     
     ## Ensure Xorg is not running
     cd ..
-    ./NVIDIA-Linux-x86_64-375.39/nvidia-install
+    ./NVIDIA-Linux-x86_64-375.39/nvidia-installer
     
 
