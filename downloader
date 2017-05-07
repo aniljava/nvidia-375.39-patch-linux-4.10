@@ -12,4 +12,4 @@ wget https://raw.githubusercontent.com/aniljava/nvidia-375.39-patch-linux-4.10/m
 patch -p1 < kernel_4.10.patch
 
 cd ..
-./NVIDIA-Linux-x86_64-375.39/nvidia-install
+./NVIDIA-Linux-x86_64-375.39/nvidia-installer
